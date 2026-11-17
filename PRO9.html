@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Eco fleet</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+.ef-marquee{overflow:hidden;white-space:nowrap;background:#1b5e20;color:#fff;padding:12px 0;font-family:Arial,sans-serif}
+.ef-marquee span{display:inline-block;font-size:1.3rem;animation:ef-slide 12s linear infinite}
+@keyframes ef-slide{from{transform:translateX(100vw)}to{transform:translateX(-100%)}}
+.ef-road{position:relative;height:70px;margin:30px 5%;border-bottom:6px dashed #1b5e20}
+.ef-car{position:absolute;bottom:0;font-size:3rem;animation:ef-drive 6s ease-in-out infinite alternate}
+@keyframes ef-drive{0%{left:0}100%{left:calc(100% - 4rem)}}
+.ef-battery{display:block;width:180px;height:56px;border:4px solid #1b5e20;border-radius:10px;background:#fff;position:relative;overflow:hidden;margin:0 auto 20px}
+.ef-battery::after{content:"";position:absolute;left:0;top:0;height:100%;background:#43a047;animation:ef-charge 3s ease-in infinite}
+@keyframes ef-charge{0%{width:0}100%{width:100%}}
+@media (prefers-reduced-motion:reduce){.ef-marquee span,.ef-car,.ef-battery::after{animation:none}}
+  </style>
+</head>
+<html lang="en">
+    <body bgcolor="#aad563">
+<div class="ef-marquee"><span>Welcome to Eco Fleet - Tracking, Maintaining and Optimizing electric vehicles</span></div>
+
+       <table align="center"><tr><td align="center">
+        <img src="image/ecofleet.jpeg" alt="Eco fleet Logo" width="500" height="500">
+      </td></tr></table>
+    <h1 align="center"><strong>Electric Vehicle Fleet Management</strong></h1>
+    <h2 align="center"><b></b></h2><br>
+    <h3 align="center"></h3><br>
+    
+    <center><audio controls>
+  <source src="image/ecofleet audio_2.mp3" type="audio/mpeg">
+
+
+  Your browser does not support the audio tag.
+</audio></center>
+
+    <h2 align="center">What do we do?</h2><br>
+    <table align="center"><tr><td align="center">
+      <video width="640" height="360" controls>
+  <source src="image/movie.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video></td></tr></table>
+<h2 align="center">Locate Us</h2>
+<table align="center">
+  <tr>
+    <td align="center">
+<a href="https://maps.app.goo.gl/rtUda7qLUMR2dxw7A">
+  <img src="image/googlemaps.png" alt="Google maps location" width="400" height="400"></a>
+</td></tr></table>
+
+<table align="center"><tr><td align="center">
+<iframe 
+  width="560" 
+  height="400" 
+  src="https://form.svhrt.com/6aa04dcfa00a75349c4a8722" 
+  title="Website feedback" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen>
+</iframe></td></tr></table>
+<br>
+
+<h2><a href="signinform.html">Sign In</a></h2>
+<h2><a href="PRO3.html">Log In</a></h2>
+<h2> <a href="feedbackform.html">Feedback form</a> </h2>
+
+<div class="ef-road"><div class="ef-car">&#128663;</div></div>
+<h2 align="center">Charging...</h2>
+<div class="ef-battery"></div>
+
+<footer>
+  <p>Copyright 2026 by ecofleet Data. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
